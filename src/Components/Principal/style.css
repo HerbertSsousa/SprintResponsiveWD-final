@@ -1,0 +1,16 @@
+.vendas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px ;
+    border-radius: 5%;
+    box-shadow: blue 2px 2px 5px;
+    width: 400px;
+    margin-top: 10%;
+ 
+}
+
+h2{
+    color: white;
+}

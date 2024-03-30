@@ -1,0 +1,56 @@
+.principalSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 130px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgb(44, 164, 164);
+  
+}
+
+.principalSection .Principal {
+  width: 60%;
+  padding: 10px;
+  bottom: 30%;
+}
+
+.Principal img {
+  width: 100%;
+  height: auto;
+}
+
+
+.editIntegrantes{
+    background-color: rgb(44, 164, 164);
+}
+
+ 
+.redesSociail{
+display: flex;
+justify-content: center;  
+  gap: 20px;
+  width: 100%;
+  
+  margin: 0 auto;
+  background-color: rgb(44, 164, 164);
+}
+
+.textoContato {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+@media (max-width: 768px) {
+    .principal-section {
+      flex-direction: column;
+      gap: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .principal-section {
+      gap: 20px;
+    }}

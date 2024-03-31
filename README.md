@@ -42,3 +42,5 @@ export default {
 ##Na parte do css criamos um codigo para cada componente, assim fazendo com que fique devidamente adequado.
 
 #Utilizamos a App.tsx para chamar e mostrar na tela os componentes feitos, com isso podendo editar e fazer alterações
+
+#Adicionei e editei o componente de assets com todas imagens para utilização no site.

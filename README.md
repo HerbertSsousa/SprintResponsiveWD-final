@@ -29,4 +29,8 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-- #Projeto iniciado pela criação do header 
+- #Projeto iniciado pela criação do header
+
+- #Com base no layout das entregas criamos uma serie de componentes para melhor entendimento
+
+- 

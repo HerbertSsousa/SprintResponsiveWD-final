@@ -44,3 +44,6 @@ export default {
 #Utilizamos a App.tsx para chamar e mostrar na tela os componentes feitos, com isso podendo editar e fazer alterações
 
 #Adicionei e editei o componente de assets com todas imagens para utilização no site.
+
+
+#importei os componentes finais que estão dando erro

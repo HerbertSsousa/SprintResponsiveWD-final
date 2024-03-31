@@ -40,3 +40,5 @@ export default {
 ##Parte com integrantes bem basico e especifico, pois no entrega do trabalho eles pedem uma parte com os integrantes.
 
 ##Na parte do css criamos um codigo para cada componente, assim fazendo com que fique devidamente adequado.
+
+###Pensamos em um site de interatividade logo o cabeçãlho quando passar ou clicar o mouse em cima nos desejamos que ja apreça de cara os produtos entre outras funcioanlidades da salesforce.

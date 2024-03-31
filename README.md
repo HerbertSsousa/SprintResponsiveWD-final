@@ -47,3 +47,6 @@ export default {
 
 
 #importei os componentes finais que estão dando erro
+
+
+#Com base na página centralizei os componentes da parte "Principal" a partir do css.

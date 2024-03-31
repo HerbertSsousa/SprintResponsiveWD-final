@@ -40,3 +40,5 @@ export default {
 ##Parte com integrantes bem basico e especifico, pois no entrega do trabalho eles pedem uma parte com os integrantes.
 
 ##Na parte do css criamos um codigo para cada componente, assim fazendo com que fique devidamente adequado.
+
+#Utilizamos a App.tsx para chamar e mostrar na tela os componentes feitos, com isso podendo editar e fazer alterações

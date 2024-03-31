@@ -33,4 +33,4 @@ export default {
 
 - #Com base no layout das entregas criamos uma serie de componentes para melhor entendimento
 
-- 
+- Nosso site consta ser um site bastante "chamativo", para que a pessoa se interesse logo de cara  

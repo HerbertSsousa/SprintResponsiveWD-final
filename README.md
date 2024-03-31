@@ -33,4 +33,6 @@ export default {
 
 - #Com base no layout das entregas criamos uma serie de componentes para melhor entendimento
 
-- Nosso site consta ser um site bastante "chamativo", para que a pessoa se interesse logo de cara  
+- Nosso site consta ser um site bastante "chamativo", para que a pessoa se interesse logo de cara
+
+- #Criamos uma parte com as redes sociais da salesforce que possivelmente quando usuario clicar vai para as redes socais deles.

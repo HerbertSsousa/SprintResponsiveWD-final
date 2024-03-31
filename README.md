@@ -38,3 +38,5 @@ export default {
 - #Criamos uma parte com as redes sociais da salesforce que possivelmente quando usuario clicar vai para as redes socais deles.
 
 ##Parte com integrantes bem basico e especifico, pois no entrega do trabalho eles pedem uma parte com os integrantes.
+
+##Na parte do css criamos um codigo para cada componente, assim fazendo com que fique devidamente adequado.

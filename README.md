@@ -50,3 +50,4 @@ export default {
 
 
 #Com base na página centralizei os componentes da parte "Principal" a partir do css.
+#Fiz a parte do JSON, uma vez que não estavamos conseguindo integrar. Com ajuda do professor o projeto saiu

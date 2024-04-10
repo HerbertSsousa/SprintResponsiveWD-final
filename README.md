@@ -28,3 +28,26 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+- #Projeto iniciado pela criação do header
+
+- #Com base no layout das entregas criamos uma serie de componentes para melhor entendimento
+
+- Nosso site consta ser um site bastante "chamativo", para que a pessoa se interesse logo de cara
+
+- #Criamos uma parte com as redes sociais da salesforce que possivelmente quando usuario clicar vai para as redes socais deles.
+
+##Parte com integrantes bem basico e especifico, pois no entrega do trabalho eles pedem uma parte com os integrantes.
+
+##Na parte do css criamos um codigo para cada componente, assim fazendo com que fique devidamente adequado.
+
+#Utilizamos a App.tsx para chamar e mostrar na tela os componentes feitos, com isso podendo editar e fazer alterações
+
+#Adicionei e editei o componente de assets com todas imagens para utilização no site.
+
+
+#importei os componentes finais que estão dando erro
+
+
+#Com base na página centralizei os componentes da parte "Principal" a partir do css.
+#Fiz a parte do JSON, uma vez que não estavamos conseguindo integrar. Com ajuda do professor o projeto saiu

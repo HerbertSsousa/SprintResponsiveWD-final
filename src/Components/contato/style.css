@@ -1,0 +1,8 @@
+.contato{
+    color: #fff;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+}

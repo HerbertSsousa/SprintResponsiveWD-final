@@ -1,0 +1,54 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+ 
+  background-color: rgba(22, 125, 221, 0.479);
+}
+
+h2{
+  color: black;
+}
+.login-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #0056b3;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid black; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #066acef6;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  border: 2px solid black; /* Adicionando borda preta ao passar o mouse */
+}

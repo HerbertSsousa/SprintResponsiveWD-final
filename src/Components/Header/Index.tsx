@@ -27,8 +27,9 @@
 // }
 
 // export default Header;
-
-
+import React from "react";
+import { Link } from "react-router-dom";
+import login from "../LoginForm";
 import Salesforce from "../../assets/Salesforce-Logo.png";
 import boneco from "../../assets/boneco.png";
 import search from "../../assets/search.png";
@@ -49,8 +50,9 @@ const Header = () => {
             <li>Suporte</li>
             <li>Empresa</li>
             <li>
-              <img width={15} src={boneco} alt="Usuário Ícone" />
-              Login
+              
+                <button> <Link to={"/LoginForm"} target="_blank">Login</Link> </button>
+                
             </li>
             <li>
               <img width={20} height={20} src={search} alt="Search Ícone" />

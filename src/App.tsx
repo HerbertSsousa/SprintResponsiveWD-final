@@ -3,11 +3,31 @@ import Integrantes from "./Components/Integrantes";
 import Footer  from "./Components/Footer";
 import Contato from "./Components/contato";
 import './App.css';
+import Header from './Components/Header/Index.tsx'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
+
 
 function App() {
   return (
     <>
+
+    <Header/>
+
       <div className="editIntegrantes">
+        <div className="principalSection">
+          <Principal Img='./src/assets/1imgSalesforce.png'
+          funcao="Commerce" />
+          <Principal Img='./src/assets/2imgSalesforce.png'
+          funcao="Atendimento ao Cliente" />
+          <Principal Img='./src/assets/3imgSalesforce.png'
+          funcao="Vendas" />
+
+          
+          
+        </div>
+
         <div className="principalSection">
           <Principal Img='./src/assets/1imgSalesforce.png'
           funcao="Commerce" />
@@ -18,60 +38,59 @@ function App() {
           
         </div>
 
+        
+
     <div className="redesSociail">
         <Footer 
         Img='./src/assets/logoFace.png'
+        url="https://www.facebook.com/salesforce"
         />
          <Footer 
         Img='./src/assets/logoX.jpg'
+        url="https://twitter.com/salesforce"
         />
         <Footer 
         Img='./src/assets/logoLin.png'
+        url="https://www.linkedin.com/company/salesforce/"
         />
          <Footer 
         Img='./src/assets/logoInsta.png'
+        url="https://www.instagram.com/salesforce/"
         />
       <Footer 
         Img='./src/assets/logoYou.png'
+        url="https://www.youtube.com/user/Salesforce"
         />
 
 
-    
-        
-    </div>
+      </div>
 
-<div className="textoContato">
-<Contato 
-Nome="Entre em contato | 800-664-9073"/>
-
-
-</div>
-
-        <Integrantes
-          Nome='Herbert Santos'
-          Img='./src/assets/Herbert.png' 
-          Email='RM553227@fiap.com.br'
-          Rm={553227}
-          funcao='Desenvolvedor Pleno'
-        />
-        <Integrantes
-          Nome='João Pedro'
-          Img='./src/assets/Joao.png'
-          Email='RM553698@fiap.com.br'
-          Rm={553698}
-          funcao='Desenvolvedor Pleno'
-        />
-        <Integrantes
-          Nome='Isabelle Queiroz'
-          Img='./src/assets/Isabelle.png'
-          Email='RM554073@fiap.com.br'
-          Rm={554073}
-          funcao='Desenvolvedor Pleno'
-        />
+      <div className="textoContato">
+      <Contato 
+      Nome="Entre em contato | 800-664-9073"/>
+      <div className="botaoIntegrantes">
+      <Contato
+      Nome="Integrantes"/>
       </div>
       
+    </div>
+
+
+   
+      
+
+        
+    </div>
+      
+
+      
+
     </>
+
+    
   );
 }
+
+
 
 export default App;

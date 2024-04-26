@@ -15,18 +15,21 @@ function App() {
 
     <Header/>
 
-      <div className="editIntegrantes">
+    <div className="editIntegrantes">
         <div className="principalSection">
           <Principal Img='./src/assets/1imgSalesforce.png'
-          funcao="Commerce" />
+          funcao="Commerce"
+          url="https://makesensesoft.com/salesforce-integration-solutions/salesforce-commerce-cloud/" />
           <Principal Img='./src/assets/2imgSalesforce.png'
-          funcao="Atendimento ao Cliente" />
+          funcao="Atendimento ao Cliente"
+          url="https://www.salesforce.com/br/atendimento-ao-cliente/" />
           <Principal Img='./src/assets/3imgSalesforce.png'
-          funcao="Vendas" />
-
-          
-          
-        </div>
+          funcao="Vendas"
+          url="https://www.salesforce.com/br/products/sales/"/>
+ 
+         
+         
+        </div> 
 
         <div className="principalSection">
           <Principal Img='./src/assets/1imgSalesforce.png'

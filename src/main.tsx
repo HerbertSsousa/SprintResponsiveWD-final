@@ -5,6 +5,8 @@ import App from './App.tsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LoginForm from "./Components/Pages/LoginForm/index.tsx";
 import Integrantes from "./Components/Pages/Integrantes/index.tsx";
+import Empresa from './Components/Pages/Empresa/index.tsx';
+import Suporte from './Components/Pages/Suporte/index.tsx';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +16,17 @@ ReactDOM.render(
         <Route path="/LoginForm" element={<LoginForm />} />
       </Routes>
 
+
+      <Routes>
+        <Route path="/Empresa" element={<Empresa />} />
+      </Routes>
+
+      <Routes>
+        <Route path="/Suporte" element={<Suporte />} />
+      </Routes>
+      
+      
+     
       <Routes>
        <Route path="/Integrantes" element={<Integrantes  
           Nome='Herbert Santos'
@@ -23,16 +36,6 @@ ReactDOM.render(
           funcao='Desenvolvedor Pleno'/>}/>
       </Routes>
         
-
-      <Routes>
-        <Route path="/Integrantes" element={<Integrantes
-          Nome='João Pedro'
-          Img='./src/assets/Joao.png'
-          Email='RM553698@fiap.com.br'
-          Rm={553698}
-          funcao='Desenvolvedor Pleno'
-        />}/>
-      </Routes>
 
 
       <Routes>

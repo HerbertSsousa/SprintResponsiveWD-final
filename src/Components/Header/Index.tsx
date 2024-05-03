@@ -1,43 +1,60 @@
-
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import login from "../Pages/LoginForm";
 import Salesforce from "../../assets/Salesforce-Logo.png";
-import boneco from "../../assets/boneco.png";
-import search from "../../assets/search.png";
 import "./Style.css";
-import Empresa from "../Empresa";
+
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className="header">
       <div className="container">
         <nav>
-          <ul>
+         
+          <div className="menu-toggle" onClick={handleMenuToggle}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul className={menuOpen ? "menu open" : "menu"}>
             <li>
-              
-              <button> <Link to={"/"} target="_blank">Produtos</Link> </button>
-              
+              <button>
+                <Link to={"/"}>Produtos</Link>
+              </button>
             </li>
-            <li>Indústria</li>
-            <li>Aprendizado</li>
             <li>
-              <img width={130} src={Salesforce} alt="Salesforce Logo" />
+              <button>
+                <Link to={"https://www.salesforce.com/br/solutions/industries/"}>Indústria</Link>
+              </button>
             </li>
-            <li>Suporte</li>
-                <li>
-              
-                   <button> <Link to={"/"} target="_blank" >Empresa</Link> </button>
-              
-                </li>
-          
-              <li>
-                
-                  <button> <Link to={"/LoginForm"} target="_blank" >Login</Link> </button>
-                  
-              </li>
-
             <li>
-              <img width={20} height={20} src={search} alt="Search Ícone" />
+              <button>
+                <Link to={"https://www.salesforce.com/br/solutions/industries/"}>Aprendizado</Link>
+              </button>
+            </li>
+            <div className="logo">
+            <Link to={"/"}>
+              <img className="img1" width={130} src={Salesforce} alt="Salesforce Logo" />
+            </Link>
+          </div>
+            <li>
+              <button>
+                <Link to={"/Suporte"}>Suporte</Link>
+              </button>
+            </li>
+            <li>
+              <button>
+                <Link to={"/Empresa"}>Empresa</Link>
+              </button>
+            </li>
+            <li>
+              <button>
+                <Link to={"/LoginForm"}>Login</Link>
+              </button>
             </li>
           </ul>
         </nav>

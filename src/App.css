@@ -43,19 +43,20 @@ justify-content: center;
     flex-direction: column;
 }
 
+@media only screen and (max-width: 768px) {
+  .principalSection {
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center; 
+  }
 
+  .principalSection .Principal {
+    width: 90%;
+  }
 
-
-
-
-@media (max-width: 768px) {
-    .principal-section {
-      flex-direction: column;
-      gap: 30px;
-    }
+  .redesSociail {
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+  }
 }
-
-@media (max-width: 500px) {
-    .principal-section {
-      gap: 20px;
-    }}

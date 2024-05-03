@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.tsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LoginForm from "./Components/LoginForm";
-import Integrantes from "./Components/Integrantes";
+import LoginForm from "./Components/Pages/LoginForm/index.tsx";
+import Integrantes from "./Components/Pages/Integrantes/index.tsx";
 
 ReactDOM.render(
   <React.StrictMode>

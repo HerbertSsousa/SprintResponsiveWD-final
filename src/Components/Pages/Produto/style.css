@@ -1,0 +1,28 @@
+
+  .product {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .product h2 {
+    color: #333;
+  }
+  
+  .product p {
+    color: #070707;
+  }
+  
+  .titulop{
+    text-align: center;
+  }

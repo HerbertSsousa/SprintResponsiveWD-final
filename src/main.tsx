@@ -7,7 +7,7 @@ import LoginForm from "./Components/Pages/LoginForm/index.tsx";
 import Integrantes from "./Components/Pages/Integrantes/index.tsx";
 import Empresa from './Components/Pages/Empresa/index.tsx';
 import Suporte from './Components/Pages/Suporte/index.tsx';
-
+import Produto from './Components/Pages/Produto/index.tsx';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
@@ -25,6 +25,9 @@ ReactDOM.render(
         <Route path="/Suporte" element={<Suporte />} />
       </Routes>
       
+      <Routes>
+        <Route path="/Produto" element={<Produto />} />
+      </Routes>
       
      
       <Routes>

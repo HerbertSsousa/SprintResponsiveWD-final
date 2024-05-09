@@ -22,17 +22,17 @@ const Header = () => {
           </div>
           <ul className={menuOpen ? "menu open" : "menu"}>
             <li>
-              <button>
-                <Link to={"/"}>Produtos</Link>
+              <button className="buto1">
+                <Link to={"/Produto"}>Produtos</Link>
               </button>
             </li>
             <li>
-              <button>
+              <button className="buto1">
                 <Link to={"https://www.salesforce.com/br/solutions/industries/"}>Indústria</Link>
               </button>
             </li>
             <li>
-              <button>
+              <button className="buto1">
                 <Link to={"https://www.salesforce.com/br/solutions/industries/"}>Aprendizado</Link>
               </button>
             </li>
@@ -42,17 +42,17 @@ const Header = () => {
             </Link>
           </div>
             <li>
-              <button>
+              <button className="buto1">
                 <Link to={"/Suporte"}>Suporte</Link>
               </button>
             </li>
             <li>
-              <button>
+              <button className="buto1">
                 <Link to={"/Empresa"}>Empresa</Link>
               </button>
             </li>
             <li>
-              <button>
+              <button className="buto1">
                 <Link to={"/LoginForm"}>Login</Link>
               </button>
             </li>

@@ -40,7 +40,6 @@ nav a {
   padding: 15px;
 }
 
-/* Adicione os estilos abaixo ao seu arquivo Style.css */
 
 .support-form {
   background-color: #f8f8f8;
@@ -113,8 +112,8 @@ button[type="submit"]:hover {
 
   .menu-toggle span {
     display: block;
-    width: 30px; /* Ajuste conforme necessário */
-    height: 3px; /* Ajuste conforme necessário */
+    width: 30px; 
+    height: 3px; 
     background-color: #fff;
     margin: 5px 0;
   }
@@ -127,9 +126,8 @@ button[type="submit"]:hover {
 
 .img1{
   display: flex;
-  justify-content: space-around; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
- /* Define a altura da área de conteúdo */
+  justify-content: space-around; 
+  align-items: center; 
   margin-left: 39%;
 }
 

@@ -14,16 +14,15 @@ h2{
 .login-form {
   width: 300px;
   padding: 30px;
-  background-color: #f8f9fa; /* Alterando a cor de fundo */
-  border-radius: 10px; /* Aumentando o raio da borda */
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Suavizando a sombra */
-  transition: box-shadow 0.3s; /* Adicionando transição suave para a sombra */
+  background-color: #f8f9fa; 
+  border-radius: 10px; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s; 
 }
 
 .login-form:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Aumentando a sombra ao passar o mouse */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
-
 .form-group {
   margin-bottom: 20px;
 }
@@ -54,5 +53,5 @@ button {
 
 button:hover {
   background-color: #0056b3;
-  border: 2px solid black; /* Adicionando borda preta ao passar o mouse */
+  border: 2px solid black; 
 }

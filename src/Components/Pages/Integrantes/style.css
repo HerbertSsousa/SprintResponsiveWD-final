@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Espaçamento entre os cartões */
+    gap: 20px; 
   }
   
   .cardIntegrantes {
@@ -17,37 +17,37 @@
     height: 270px;
     padding: 20px;
     box-sizing: border-box;
-    background-color: rgb(44, 164, 164); /* Cor de fundo cinza */
-    border: 1px solid black; /* Borda cinza */
-    border-radius: 20px; /* Bordas arredondadas */
-    text-align: center; /* Alinhamento do texto centralizado */
+    background-color: rgb(44, 164, 164); 
+    border: 1px solid black; 
+    border-radius: 20px; 
+    text-align: center; 
     gap: 10px;
    
   }
   
   .cardIntegrantes img {
-    width: 100px; /* Tamanho da imagem */
+    width: 100px; 
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+    margin-bottom: 10px; 
   }
   
   .cardIntegrantes h1 {
     font-size: 20px;
     margin: 0;
-    color: black; /* Cor do texto preto */
+    color: black; 
   }
   
   .cardIntegrantes h3 {
     font-size: 16px;
     margin: 0;
-    color: black; /* Cor do texto cinza escuro */
+    color: black; 
   }
   
   .cardIntegrantes h5 {
     font-size: 14px;
     margin: 0;
-    color: black; /* Cor do texto cinza claro */
+    color: black; 
   }
   

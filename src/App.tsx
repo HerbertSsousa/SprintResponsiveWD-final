@@ -1,10 +1,8 @@
 import Principal from "./Components/Principal";
-import Integrantes from "./Components/Pages/Integrantes/index.tsx";
 import Footer  from "./Components/Footer";
 import Contato from "./Components/Pages/contato/index.tsx";
 import './App.css';
 import Header from './Components/Header/Index.tsx'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
